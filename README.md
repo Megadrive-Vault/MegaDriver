@@ -67,6 +67,7 @@ It is a [Capybara](https://github.com/jnicklas/capybara) Driver extended from [S
 ## TODO
 
 Make possible to select the browser type
+Create a generator
 
 
 ## Thanks
