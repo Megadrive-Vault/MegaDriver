@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 Dado /^que "([^"]*)" está no controle$/ do |client|
   Given %{"#{client}" is in control}
 end
