@@ -4,6 +4,7 @@ With MegaDriver, you can simulate *multiple clients in the same [Cucu](http://en
 
 It is a [Capybara](https://github.com/jnicklas/capybara) Driver extended from [Selenium](http://seleniumhq.org/) Capybara Driver with some Cucumber Steps.
 
+
 ## Getting Started
 
 1. *Install* MegaDriver at the command prompt if you haven't yet:
@@ -14,10 +15,18 @@ It is a [Capybara](https://github.com/jnicklas/capybara) Driver extended from [S
 
     PS: we have in pt-BR besides English
 
-3. *Set up* MegaDriver as your Capybara driver:
+3. Add the following code to your features/support/env.rb:
 
-  * Add "Capybara.default_driver = :megadriver" to your features/support/env.rb
+    `Before do
+      Capybara.session_name = :default
+      @other = 0
+    end`
+
+4. *Set up* MegaDriver as your Capybara driver:
+
+  * Add `Capybara.default_driver = :megadriver` to your features/support/env.rb
   * *OR* tag your Cucumber scenarios with @megadriver
+
 
 ## Example
 
