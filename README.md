@@ -13,14 +13,16 @@ It is a [Capybara](https://github.com/jnicklas/capybara) Driver extended from [S
   
 2. *Copy* MegaDriver's step definitions to your step definitions directory
 
-    PS: we have in pt-BR besides English
+    PS: we have pt-BR besides English
 
 3. Add the following code to your features/support/env.rb:
 
-    `Before do
+    ```ruby
+    Before do
       Capybara.session_name = :default
       @other = 0
-    end`
+    end
+    ```
 
 4. *Set up* MegaDriver as your Capybara driver:
 
