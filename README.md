@@ -8,7 +8,7 @@ It is a [Capybara](https://github.com/jnicklas/capybara) Driver extended from [S
 
 1. *Install* MegaDriver at the command prompt if you haven't yet:
 
-  gem install megadriver
+    gem install megadriver
   
 2. *Copy* MegaDriver's step definitions to your step definitions directory
 
