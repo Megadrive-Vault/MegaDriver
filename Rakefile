@@ -17,11 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "megadriver"
   gem.homepage = "http://github.com/pedromenezes/megadriver"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Multiple Selenium clients in Cucumber scenarios with Capybara}
+  gem.description = %Q{Capybara Driver and Cucumber Steps to use multiple clients in the same scenario}
   gem.email = "pedrojudo@gmail.com"
   gem.authors = ["Pedro Menezes"]
-  # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
 
