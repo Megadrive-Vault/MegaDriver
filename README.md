@@ -27,7 +27,8 @@ It is a [Capybara](https://github.com/jnicklas/capybara) Driver extended from [S
 4. *Set up* MegaDriver as your Capybara driver:
 
   * Add `Capybara.default_driver = :megadriver` to your features/support/env.rb
-  * *OR* tag your Cucumber scenarios with @megadriver
+  
+  *OR* tag your Cucumber scenarios with @megadriver
 
 
 ## Example
@@ -69,6 +70,7 @@ It is a [Capybara](https://github.com/jnicklas/capybara) Driver extended from [S
 ## TODO
 
 Make possible to select the browser type
+
 Create a generator
 
 
